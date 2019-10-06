@@ -1,31 +1,12 @@
 [package]
 name = "tdns-update"
-description = "Dynamic DNS updater (RFC 2136)"
-categories = ["command-line-utilities", "network-programming"]
-keywords = ["dns", "update", "dynamic", "nsupdate"]
+description = "Dynamic DNS updater (RFC 2136) - superseded by `tdns-cli`"
 repository = "https://github.com/rotty/tdns-update"
 homepage = "https://github.com/rotty/tdns-update"
-readme = "README.md"
-version = "0.0.4"
+version = "0.0.5"
 authors = ["Andreas Rottmann <a.rottmann@gmx.at>"]
 license = "GPL-3.0-or-later"
 edition = "2018"
 
 [badges]
-maintenance = { status = "actively-developed" }
-
-[dependencies]
-trust-dns = "0.17.0"
-structopt = "0.3.1"
-futures = "0.1.29"
-failure = "0.1.5"
-tokio = "0.1.22"
-tokio-udp = "0.1.5"
-resolv-conf = "0.6.2"
-tokio-tcp = "0.1.3"
-rand = "0.7.2"
-hmac = "0.7.1"
-sha2 = "0.8.0"
-crypto-mac = "0.7.0"
-once_cell = "1.2.0"
-base64 = "0.10.1"
+maintenance = { status = "deprecated" }
